@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class sampleTest{
 	private WebDriver driver;
-	
+	// before test used to perform actions needed for setting up the test
 	@BeforeTest
 	public void BeforeTest() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Arun Kumar\\eclipse-workspace\\Sample_Cucumber_Demo\\Driver\\chromedriver.exe");
